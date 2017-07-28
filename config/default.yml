@@ -2,7 +2,7 @@ server:
   port: 3000
 application:
   domain: "juice-sh.op"
-  name: "OWASP Juice Shop"
+  name: "Flight Club"
   logo: "JuiceShop_Logo.png"
   favicon: "favicon_v2.ico"
   numberOfRandomFakeUsers: 0
@@ -11,51 +11,51 @@ application:
   showGitHubRibbon: false
   showChallengeHints: false
   theme: "paper" # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
-  twitterUrl: "https://twitter.com/owasp_juiceshop"
-  facebookUrl: "https://www.facebook.com/owasp.juiceshop"
+  twitterUrl: ""
+  facebookUrl: ""
   recyclePage:
     topProductImage: "fruit_press.jpg"
     bottomProductImage: "apple_pressings.jpg"
 products:
-  - name: "Apple Juice (1000ml)"
+  - name: "Box Plane"
     price: 1.99
-    description: "The all-time classic."
+    description: "Box Planes are cool"
     image: "apple_juice.jpg"
-  - name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
+  - name: 'Better Box Plane'
+    description: 'More Box Planes!'
     price: 2.99
     image: 'orange_juice.jpg'
-  - name: 'Eggfruit Juice (500ml)'
-    description: 'Now with even more exotic flavour.'
+  - name: 'Engine Breakdown'
+    description: 'It's very fancy'
     price: 8.99
     image: 'eggfruit_juice.jpg'
-  - name: 'Raspberry Juice (1000ml)'
-    description: 'Made from blended Raspberry Pi, water and sugar.'
+  - name: 'A Mug'
+    description: 'A plane on a mug'
     price: 4.99
     image: 'raspberry_juice.jpg'
-  - name: 'Lemon Juice (500ml)'
-    description: 'Sour but full of vitamins.'
+  - name: 'A Kid on a Plane'
+    description: 'So very fun'
     price: 2.99
     image: 'lemon_juice.jpg'
-  - name: 'Banana Juice (1000ml)'
-    description: 'Monkeys love it the most.'
+  - name: 'Engine Front'
+    description: 'These are cool!'
     price: 1.99
     image: 'banana_juice.jpg'
-  - name: 'OWASP Juice Shop T-Shirt'
+  - name: 'Pilot Tee'
     description: 'Real fans wear it 24/7!'
     price: 22.49
     image: 'fan_shirt.jpg'
-  - name: 'OWASP Juice Shop CTF Girlie-Shirt'
-    description: 'For serious Capture-the-Flag heroines only!'
+  - name: 'Another Tee'
+    description: 'For serious fans only!'
     price: 22.49
     image: 'fan_girlie.jpg'
-  - name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
-    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
+  - name: 'Some Tools'
+    description: 'To fix your planes'
     price: 0.01
     image: 'owasp_osaft.jpg'
     useForProductTamperingChallenge: true
   - name: 'Christmas Super-Surprise-Box (2014 Edition)'
-    description: 'Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt (3XL) for an unbeatable price!'
+    description: 'Contains a random selection for an unbeatable price!'
     price: 29.99
     image: 'undefined.jpg'
     useForChristmasSpecialChallenge: true
